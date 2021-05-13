@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 "file A is a text file with the changes -- version github version1" 
 =======
 "file A is a text file with the changes -- version feature File" 
+>>>>>>> feature
+=======
+"file A is a text file with the changes -- version1 feature File" 
 >>>>>>> feature
