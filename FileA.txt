@@ -1,1 +1,1 @@
-"file A is a text file with the changes" 
+"file A is a text file with the changes -- version GitHub" 
