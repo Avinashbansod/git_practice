@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-this is fileA from master...
-=======
-FileA from feature..
->>>>>>> feature
