@@ -7,6 +7,6 @@ node {
     }
     stage('print value of x') {
         println xy
-        println BRANCH_NAME
+        println env.BRANCH_NAME
     }
 }
