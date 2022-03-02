@@ -7,6 +7,6 @@ node {
     }
     stage('print value of x') {
         println xy
-        println env.JOB_NAME
+        println env.NODE_NAME
     }
 }
