@@ -1,4 +1,7 @@
 node {
+    environment {
+     MY_NAME = 'avinash'
+    }
     def xy = 5
     stage('for loop practice') { // for display purposes
         for(int i=0; i<=xy; i++){
@@ -8,5 +11,6 @@ node {
     stage('print value of x') {
         println xy
         println env.NODE_NAME
+        println env.MY_NAME
     }
 }
