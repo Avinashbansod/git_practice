@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('ansible check targets') {
             steps {
                 echo 'ping ansible targets!'
                 sh "export ANSIBLE_HOST_KEY_CHECKING=False"
