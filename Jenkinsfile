@@ -1,16 +1,7 @@
 node {
-    environment {
-     MY_NAME = 'avinash'
+    SERVER_CREDENTIALS = credentials('ansible-private-key')
+    stage('checking ansible ping') { // for display purposes
+        sh "ansible all -i 'ubuntu1,' -m ping --user ansible --private-key ${SERVER_CREDENTIALS}"
     }
-    def xy = 5
-    stage('for loop practice') { // for display purposes
-        for(int i=0; i<=xy; i++){
-            println i
-        }
-    }
-    stage('print value of x') {
-        println xy
-        println env.NODE_NAME
-        println env.MY_NAME
-    }
+    
 }
